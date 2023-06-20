@@ -1,0 +1,15 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=cop
+    username: postgres
+    password: tiger
+#  jpa:
+#    hibernate:
+#      ddl-auto: update # or your preferred database schema update strategy
+#    show-sql: true # enables SQL logging
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
